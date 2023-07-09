@@ -1,0 +1,232 @@
+.task-list {
+    color: #323338;
+    text-align: center;
+    font-size: 14px;
+    color: $clr1;
+
+    .drag-tasks-container {
+        > * {
+            min-width: min-content;
+        }
+    }
+
+    .mobile-only {
+        display: none;
+        @include for-mobile-layout {
+            display: flex;
+        }
+    }
+
+    .only-desktop {
+        @include for-mobile-layout {
+            display: none;
+        }
+    }
+
+    .white-background {
+        position: absolute;
+        background-color: #fff;
+        height: 37px;
+        width: 40px;
+        left: -40px;
+        // z-index: 5;
+    }
+
+    .task-title-row {
+        text-align: center;
+        font-size: 14px;
+        min-width: min-content;
+
+        @include for-mobile-layout {
+            // &:nth-child(1) {
+            //     margin-left: 23px;
+            // }
+
+            margin-left: 4px;
+        }
+    }
+
+    .menu-modal {
+        p {
+            margin: 0;
+        }
+    }
+
+    .task-timeline {
+        width: 187px;
+    }
+
+    .task-files {
+        width: 139px;
+    }
+
+    .checkbox {
+        width: 65px;
+    }
+
+    .add-colume {
+        width: 100px;
+        flex: 1;
+        justify-content: flex-start;
+    }
+    .plusIcon {
+        margin-left: 10px;
+    }
+    .place-holder {
+        width: 100vw;
+        border-right: 1px solid #d0d4e4;
+        border-bottom: 1px solid #d0d4e4;
+    }
+}
+
+.task-column {
+    border-right: 1px solid #d0d4e4;
+    border-bottom: 1px solid #d0d4e4;
+    height: 36px;
+    line-height: 36px;
+    background: white;
+}
+
+.upper-task {
+    border-top: #d0d4e4 1px solid;
+
+    &.task-title {
+        @include for-mobile-layout {
+            width: 170px;
+        }
+    }
+}
+
+.checkbox-column {
+    display: flex;
+    border-left: none;
+    cursor: pointer;
+
+    @include for-mobile-layout {
+        display: none;
+    }
+
+    &.disabled {
+        cursor: default;
+        border-bottom: none;
+    }
+
+    width: 39px;
+}
+
+.task-checkbox {
+    transform: scale(1.3);
+    margin: auto;
+    cursor: pointer;
+
+    // margin-inline: 10px;
+    &.disabled {
+        cursor: default;
+        width: 39px;
+    }
+}
+
+.task-date {
+    width: 139px;
+    padding-inline: 10px;
+
+    .ant-picker {
+        input {
+            text-align: center;
+            padding-inline-start: 2px;
+            font-size: 13px;
+            color: $primary-text-color;
+        }
+    }
+}
+
+.add-task-wrap-mobile {
+    display: none;
+
+    @include for-mobile-layout {
+        display: flex;
+    }
+}
+
+.add-task-wrap {
+    border-right: 1px solid #d0d4e4;
+    // border-bottom: 1px solid #d0d4e4;
+
+    @include for-mobile-layout {
+        border: none;
+        .mobile-version {
+            position: unset;
+        }
+    }
+
+    .task-checkbox {
+        opacity: 0.5;
+    }
+    & .checkbox-column {
+        border-bottom: 1px solid #d0d4e4;
+    }
+    & .task-input-row {
+        border-bottom: 1px solid #d0d4e4;
+    }
+    & .filler-div {
+        flex: 1;
+        border-bottom: 1px solid #d0d4e4;
+        @include for-mobile-layout {
+            display: none;
+        }
+    }
+}
+
+.task-input-row {
+    // border: 0.5px solid rgba(0, 0, 0, 0.192);
+    // border-right: #d0d4e4 1px solid;
+
+    @include for-mobile-layout {
+        width: 170px;
+        border-right: 1px solid #d0d4e4;
+        border-bottom: 1px solid #d0d4e4;
+    }
+
+    height: 36px;
+    width: 100%;
+    border-block-start: none;
+}
+
+.add-task-input {
+    // margin-left: 10px;
+    margin: 8px 0 8px 10px;
+    border: none;
+    padding-left: 16px;
+    padding-top: 2px;
+    float: left;
+
+    @include for-mobile-layout {
+        width: 153px;
+        padding-left: 0;
+        margin: 8px 8px 8px 8px;
+    }
+}
+
+.colored-tag {
+    display: inline-block;
+    height: 36px;
+    width: 6px;
+    margin-inline-start: 8px;
+}
+
+.first-tag {
+    border-radius: 2rem 0 0 0;
+    margin-left: 0;
+}
+
+.last-tag {
+    border-radius: 0 0 0 1rem;
+    opacity: 0.5;
+    height: 36px;
+    margin-left: 0;
+    min-width: 6px;
+
+    @include for-mobile-layout {
+        margin-left: -0.5px;
+    }
+}
