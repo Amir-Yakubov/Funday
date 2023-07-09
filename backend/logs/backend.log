@@ -1,0 +1,30 @@
+23.6.2023, 17:10:26 - INFO - Server is running on port: 3030 
+23.6.2023, 17:13:28 - INFO - New connected socket [id: ds1WTEQ0vDalZ4h9AAAB] 
+23.6.2023, 17:13:28 - DEBUG - Getting Boards 
+23.6.2023, 17:13:30 - DEBUG - Getting Boards 
+23.6.2023, 17:13:30 - DEBUG - Getting Boards 
+23.6.2023, 17:13:30 - DEBUG - Getting Boards 
+23.6.2023, 17:13:37 - DEBUG - Getting Boards 
+23.6.2023, 17:13:37 - ERROR - while finding board [object Object] | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+23.6.2023, 17:13:37 - ERROR - Failed to get board | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+23.6.2023, 17:14:10 - INFO - Socket disconnected [id: undefined] 
+23.6.2023, 17:14:11 - INFO - New connected socket [id: thazumeQqNHLwKWdAAAD] 
+23.6.2023, 17:14:11 - DEBUG - Getting Boards 
+23.6.2023, 17:14:11 - ERROR - while finding board [object Object] | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+23.6.2023, 17:14:11 - ERROR - Failed to get board | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+23.6.2023, 17:14:29 - INFO - Socket disconnected [id: undefined] 
+23.6.2023, 17:14:30 - INFO - New connected socket [id: hmNO6ye--Z4rjGzIAAAF] 
+23.6.2023, 17:14:30 - DEBUG - Getting Boards 
+23.6.2023, 17:14:30 - ERROR - while finding board [object Object] | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+23.6.2023, 17:14:30 - ERROR - Failed to get board | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+23.6.2023, 17:14:42 - INFO - New chat msg from socket [id: hmNO6ye--Z4rjGzIAAAF], emitting to topic 6408c8f5a4887d0036729bfc 
+23.6.2023, 17:15:05 - DEBUG - Getting Boards 
+23.6.2023, 17:15:18 - DEBUG - Getting Boards 
+23.6.2023, 17:15:18 - ERROR - while finding board [object Object] | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+23.6.2023, 17:15:18 - ERROR - Failed to get board | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+23.6.2023, 17:15:41 - DEBUG - Getting Boards 
+23.6.2023, 17:15:42 - DEBUG - Getting Boards 
+23.6.2023, 17:16:02 - DEBUG - Getting Boards 
+23.6.2023, 17:16:02 - ERROR - while finding board [object Object] | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+23.6.2023, 17:16:02 - ERROR - Failed to get board | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+23.6.2023, 17:16:09 - INFO - Socket disconnected [id: undefined] 
