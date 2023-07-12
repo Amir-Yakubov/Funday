@@ -1,3 +1,3 @@
 # Funday
-![image](https://github.com/Amir-Yakubov/Funday/assets/49751797/111a8808-86ec-417b-8f0d-228a455f830f)
+![image](https://github.com/Amir-Yakubov/Funday/assets/49751797/9e350bc6-feae-4bb3-ad5e-1d174598f6aa)
 
